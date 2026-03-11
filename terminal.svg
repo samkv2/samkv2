@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="auto">
   <defs>
     <style>
       .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2; rx: 10; ry: 10; }
@@ -7,12 +7,16 @@
       .btn-red { fill: #ff5f56; }
       .btn-yel { fill: #ffbd2e; }
       .btn-grn { fill: #27c93f; }
-      .text { font-family: 'Courier New', Courier, monospace; font-size: 20px; font-weight: bold; fill: #00FF00; }
+      .text { font-family: 'Courier New', Courier, monospace; font-size: 28px; font-weight: bold; fill: #00FF00; line-height: 1.4; }
       .prompt { fill: #00FF00; }
-      /* Just the blinking cursor animation, no typing animation */
       .cursor { 
-        fill: #00FF00;
+        display: inline-block;
+        width: 14px;
+        height: 28px;
+        background-color: #00FF00;
+        vertical-align: text-bottom;
         animation: blink 1s step-end infinite;
+        margin-left: 2px;
       }
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
       .glow { filter: drop-shadow(0 0 5px rgba(0,255,0,0.5)); }
@@ -20,7 +24,7 @@
   </defs>
   
   <!-- Window Background -->
-  <rect class="bg" x="10" y="10" width="780" height="180" />
+  <rect class="bg" x="10" y="10" width="780" height="230" />
   
   <!-- Window Header with flat bottom -->
   <rect class="header" x="10" y="10" width="780" height="40" />
@@ -32,18 +36,14 @@
   <circle class="btn-grn" cx="85" cy="30" r="8" />
   
   <!-- Header Title -->
-  <text x="400" y="36" font-family="sans-serif" font-size="14px" fill="#8b949e" text-anchor="middle">bash - samkv2</text>
+  <text x="400" y="36" font-family="sans-serif" font-size="16px" fill="#8b949e" text-anchor="middle">bash - user_init</text>
   
-  <!-- Terminal Content -->
-  <g class="glow">
-    <text class="text" x="30" y="90">
-      <tspan class="prompt">root@samkv2:~$</tspan> ./whoami.sh
-    </text>
-    <text class="text" x="30" y="130">
-      <tspan class="prompt">></tspan> Hi, This is Shivam Kumar a computer science engineer!
-    </text>
-    <text class="text" x="30" y="170">
-      <tspan class="prompt">></tspan> Here We Go ↴.<rect class="cursor" x="140" y="152" width="12" height="20" />
-    </text>
-  </g>
+  <!-- Terminal Content inside foreignObject to allow text wrapping for larger font size -->
+  <foreignObject x="30" y="60" width="740" height="170">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="text glow" style="width: 100%; height: 100%;">
+      <div><span class="prompt">root@samkv2:~$</span> ./whoami.sh</div>
+      <div style="margin-top: 5px; word-wrap: break-word;"><span class="prompt">></span> Hi, This is Shivam Kumar a computer science engineer!</div>
+      <div style="margin-top: 5px;"><span class="prompt">></span> Here We Go &#x21B4;.<span class="cursor"></span></div>
+    </div>
+  </foreignObject>
 </svg>
