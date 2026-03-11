@@ -30,22 +30,22 @@ This repository (`samkv2`) is my primary workspace for:
   <div style="background-color: #000000; border: 2px solid #00FF00; box-shadow: 0 0 10px #00FF00; padding: 20px; border-radius: 10px; max-width: 100%;">
     <p style="color: #00FF00; font-family: monospace; font-size: 16px; margin-bottom: 15px;"><code>[&nbsp;SYSTEM_ENVIRONMENT_//_Tech_Stack&nbsp;]</code></p>
     <p align="center">
-      <img src="https://img.shields.io/badge/C-%23000000.svg?style=for-the-badge&logo=c&logoColor=00FF00" alt="C" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/C++-%23000000.svg?style=for-the-badge&logo=c%2B%2B&logoColor=00FF00" alt="C++" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Java-%23000000.svg?style=for-the-badge&logo=openjdk&logoColor=00FF00" alt="Java" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Kotlin-%23000000.svg?style=for-the-badge&logo=kotlin&logoColor=00FF00" alt="Kotlin" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Python-%23000000.svg?style=for-the-badge&logo=python&logoColor=00FF00" alt="Python" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Linux-%23000000.svg?style=for-the-badge&logo=linux&logoColor=00FF00" alt="Linux" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Bash-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" alt="Bash" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Git-%23000000.svg?style=for-the-badge&logo=git&logoColor=00FF00" alt="Git" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Docker-%23000000.svg?style=for-the-badge&logo=docker&logoColor=00FF00" alt="Docker" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Android-%23000000.svg?style=for-the-badge&logo=android&logoColor=00FF00" alt="Android" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/JavaFX-%23000000.svg?style=for-the-badge&logo=java&logoColor=00FF00" alt="JavaFX" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/NumPy-%23000000.svg?style=for-the-badge&logo=numpy&logoColor=00FF00" alt="NumPy" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Pandas-%23000000.svg?style=for-the-badge&logo=pandas&logoColor=00FF00" alt="Pandas" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Scikit--learn-%23000000.svg?style=for-the-badge&logo=scikit-learn&logoColor=00FF00" alt="Scikit-learn" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Wireshark-%23000000.svg?style=for-the-badge&logo=wireshark&logoColor=00FF00" alt="Wireshark" style="margin: 5px;" />
-      <img src="https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=kalilinux&logoColor=00FF00" alt="Nmap" style="margin: 5px;" />
+      <img src="https://img.shields.io/badge/C-%23000000.svg?style=for-the-badge&logo=c&logoColor=00FF00" alt="C" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/C++-%23000000.svg?style=for-the-badge&logo=c%2B%2B&logoColor=00FF00" alt="C++" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Java-%23000000.svg?style=for-the-badge&logo=openjdk&logoColor=00FF00" alt="Java" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Kotlin-%23000000.svg?style=for-the-badge&logo=kotlin&logoColor=00FF00" alt="Kotlin" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Python-%23000000.svg?style=for-the-badge&logo=python&logoColor=00FF00" alt="Python" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Linux-%23000000.svg?style=for-the-badge&logo=linux&logoColor=00FF00" alt="Linux" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Bash-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" alt="Bash" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Git-%23000000.svg?style=for-the-badge&logo=git&logoColor=00FF00" alt="Git" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Docker-%23000000.svg?style=for-the-badge&logo=docker&logoColor=00FF00" alt="Docker" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Android-%23000000.svg?style=for-the-badge&logo=android&logoColor=00FF00" alt="Android" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/JavaFX-%23000000.svg?style=for-the-badge&logo=java&logoColor=00FF00" alt="JavaFX" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/NumPy-%23000000.svg?style=for-the-badge&logo=numpy&logoColor=00FF00" alt="NumPy" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Pandas-%23000000.svg?style=for-the-badge&logo=pandas&logoColor=00FF00" alt="Pandas" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Scikit--learn-%23000000.svg?style=for-the-badge&logo=scikit-learn&logoColor=00FF00" alt="Scikit-learn" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Wireshark-%23000000.svg?style=for-the-badge&logo=wireshark&logoColor=00FF00" alt="Wireshark" style="margin: 5px;" height="40" />
+      <img src="https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=kalilinux&logoColor=00FF00" alt="Nmap" style="margin: 5px;" height="40" />
     </p>
     <p style="color: #00FF00; font-family: monospace; font-size: 14px; margin-top: 15px;"><code>>> ALL_SYSTEMS_ONLINE_AND_FULLY_OPERATIONAL_</code></p>
   </div>
