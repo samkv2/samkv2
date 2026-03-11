@@ -43,7 +43,7 @@
       <tspan class="prompt">></tspan> Hi, This is Shivam Kumar a computer science engineer!
     </text>
     <text class="text" x="30" y="170">
-      <tspan class="prompt">></tspan> Ready.<rect class="cursor" x="140" y="152" width="12" height="20" />
+      <tspan class="prompt">></tspan> Here We Go ↴.<rect class="cursor" x="140" y="152" width="12" height="20" />
     </text>
   </g>
 </svg>
