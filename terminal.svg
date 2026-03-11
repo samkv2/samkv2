@@ -7,16 +7,11 @@
       .btn-red { fill: #ff5f56; }
       .btn-yel { fill: #ffbd2e; }
       .btn-grn { fill: #27c93f; }
-      .text { font-family: 'Courier New', Courier, monospace; font-size: 28px; font-weight: bold; color: #39ff14; fill: #39ff14; line-height: 1.4; }
-      .prompt { color: #39ff14; fill: #39ff14; }
+      .text { font-family: 'Courier New', Courier, monospace; font-size: 26px; font-weight: bold; fill: #39ff14; }
+      .prompt { fill: #39ff14; }
       .cursor { 
-        display: inline-block;
-        width: 14px;
-        height: 28px;
-        background-color: #39ff14;
-        vertical-align: text-bottom;
+        fill: #39ff14;
         animation: blink 1s step-end infinite;
-        margin-left: 2px;
       }
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
       .glow { filter: drop-shadow(0 0 3px rgba(57,255,20,0.6)); }
@@ -36,14 +31,24 @@
   <circle class="btn-grn" cx="85" cy="30" r="8" />
   
   <!-- Header Title -->
-  <text x="400" y="36" font-family="sans-serif" font-size="16px" fill="#8b949e" text-anchor="middle">bash - user_init</text>
+  <text x="400" y="36" font-family="sans-serif" font-size="16px" fill="#8b949e" text-anchor="middle">bash - samkv2</text>
   
-  <!-- Terminal Content inside foreignObject to allow text wrapping for larger font size -->
-  <foreignObject x="30" y="60" width="740" height="170">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="text glow" style="width: 100%; height: 100%;">
-      <div><span class="prompt">root@samkv2:~$</span> ./whoami.sh</div>
-      <div style="margin-top: 5px; word-wrap: break-word;"><span class="prompt">></span> Hi, This is Shivam Kumar a computer science engineer!</div>
-      <div style="margin-top: 5px;"><span class="prompt">></span> Here We Go &#x21B4;.<span class="cursor"></span></div>
-    </div>
-  </foreignObject>
+  <!-- Terminal Content inside strict SVG tags for GitHub rendering compatibility -->
+  <!-- Split into individual <text> and <tspan> lines to manually wrap the font at this size -->
+  <g class="glow">
+    <text class="text" x="30" y="85">
+      <tspan class="prompt" fill="#39ff14">root@samkv2:~$</tspan> ./whoami.sh
+    </text>
+    
+    <text class="text" x="30" y="135">
+      <tspan class="prompt" fill="#39ff14">></tspan> Hi, This is Shivam Kumar a computer
+    </text>
+    <text class="text" x="30" y="175">
+      science engineer!
+    </text>
+    
+    <text class="text" x="30" y="220">
+      <tspan class="prompt" fill="#39ff14">></tspan> Here We Go &#x21B4;.<tspan class="cursor" fill="#39ff14">&#x2588;</tspan>
+    </text>
+  </g>
 </svg>
