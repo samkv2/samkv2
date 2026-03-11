@@ -66,5 +66,5 @@ This repository (`samkv2`) is my primary workspace for:
   <br>
   <code>root@samkv2:~# logout</code>
   <br>
-  <code>Connection to samkv2 closed.</code>
+  <code>Connection to samkv2 Opened.</code>
 </div>
