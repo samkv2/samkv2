@@ -7,59 +7,14 @@
       .btn-red { fill: #ff5f56; }
       .btn-yel { fill: #ffbd2e; }
       .btn-grn { fill: #27c93f; }
-      .text { font-family: 'Courier New', Courier, monospace; font-size: 22px; font-weight: bold; fill: #00FF00; }
+      .text { font-family: 'Courier New', Courier, monospace; font-size: 20px; font-weight: bold; fill: #00FF00; }
       .prompt { fill: #00FF00; }
-      
-      /* Typing Animation Classes */
-      .typing-line-1, .typing-line-2 {
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: .15em solid #00FF00;
-        animation: 
-          typing 2s steps(40, end),
-          blink-caret .75s step-end infinite;
-      }
-      
-      .typing-line-2 {
-        animation: 
-          typing 3s steps(60, end) 2s both,
-          blink-caret .75s step-end infinite;
-      }
-
-      .typing-line-3 {
-        overflow: hidden;
-        white-space: nowrap;
-        width: 0;
-        animation: 
-          typing-done 1s steps(20, end) 5s both;
-      }
-
-      .cursor {
+      /* Just the blinking cursor animation, no typing animation */
+      .cursor { 
         fill: #00FF00;
-        animation: blink 1s step-end infinite 6s;
-        opacity: 0; /* Hidden until typing is done */
+        animation: blink 1s step-end infinite;
       }
-
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-      
-      @keyframes typing-done {
-        from { width: 0 }
-        to { width: 100% }
-      }
-
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: #00FF00; }
-      }
-
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
       .glow { filter: drop-shadow(0 0 5px rgba(0,255,0,0.5)); }
     </style>
   </defs>
@@ -77,14 +32,18 @@
   <circle class="btn-grn" cx="85" cy="30" r="8" />
   
   <!-- Header Title -->
-  <text x="400" y="36" font-family="sans-serif" font-size="14px" fill="#8b949e" text-anchor="middle">bash - user_init</text>
+  <text x="400" y="36" font-family="sans-serif" font-size="14px" fill="#8b949e" text-anchor="middle">bash - samkv2</text>
   
-  <!-- Terminal Content wrapped in foreignObject for CSS animations -->
-  <foreignObject x="30" y="60" width="740" height="130">
-    <div xmlns="http://www.w3.org/1999/xhtml" class="text glow" style="width: 100%; height: 100%;">
-      <div class="typing-line-1"><span class="prompt">root@samkv2:~$</span> ./whoami.sh</div>
-      <div class="typing-line-2"><span class="prompt">></span> Hi, This is Shivam Kumar a computer science engineer!</div>
-      <div class="typing-line-3"><span class="prompt">></span> Ready. <span style="animation: blink 1s step-end infinite 6s;">&#x2588;</span></div>
-    </div>
-  </foreignObject>
+  <!-- Terminal Content -->
+  <g class="glow">
+    <text class="text" x="30" y="90">
+      <tspan class="prompt">root@samkv2:~$</tspan> ./whoami.sh
+    </text>
+    <text class="text" x="30" y="130">
+      <tspan class="prompt">></tspan> Hi, This is Shivam Kumar a computer science engineer!
+    </text>
+    <text class="text" x="30" y="170">
+      <tspan class="prompt">></tspan> Ready.<rect class="cursor" x="140" y="152" width="12" height="20" />
+    </text>
+  </g>
 </svg>
