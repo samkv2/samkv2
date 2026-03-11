@@ -39,7 +39,7 @@
       <tspan class="prompt">root@samkv2:~$</tspan> ./init_sandbox.sh
     </text>
     <text class="text" x="30" y="130">
-      <tspan class="prompt">></tspan> Loading environment... [OK]
+      <tspan class="prompt">></tspan> Hii ! This is Shivam Kumar a Computer Science Engineer
     </text>
     <text class="text" x="30" y="170">
       <tspan class="prompt">></tspan> Ready for creative coding<rect class="cursor" x="420" y="152" width="14" height="22" />
