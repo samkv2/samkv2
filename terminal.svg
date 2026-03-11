@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2; rx: 10; ry: 10; }
+      .header { fill: #161b22; rx: 10; ry: 10; }
+      .header-flat { fill: #161b22; }
+      .btn-red { fill: #ff5f56; }
+      .btn-yel { fill: #ffbd2e; }
+      .btn-grn { fill: #27c93f; }
+      .text { font-family: 'Courier New', Courier, monospace; font-size: 24px; font-weight: bold; fill: #00FF00; }
+      .prompt { fill: #00FF00; }
+      .cursor { 
+        fill: #00FF00;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .glow { filter: drop-shadow(0 0 5px rgba(0,255,0,0.5)); }
+    </style>
+  </defs>
+  
+  <!-- Window Background -->
+  <rect class="bg" x="10" y="10" width="780" height="180" />
+  
+  <!-- Window Header with flat bottom -->
+  <rect class="header" x="10" y="10" width="780" height="40" />
+  <rect class="header-flat" x="10" y="30" width="780" height="20" />
+  
+  <!-- Window Buttons -->
+  <circle class="btn-red" cx="35" cy="30" r="8" />
+  <circle class="btn-yel" cx="60" cy="30" r="8" />
+  <circle class="btn-grn" cx="85" cy="30" r="8" />
+  
+  <!-- Header Title -->
+  <text x="400" y="36" font-family="sans-serif" font-size="14px" fill="#8b949e" text-anchor="middle">bash - samkv2</text>
+  
+  <!-- Terminal Content -->
+  <g class="glow">
+    <text class="text" x="30" y="90">
+      <tspan class="prompt">root@samkv2:~$</tspan> ./init_sandbox.sh
+    </text>
+    <text class="text" x="30" y="130">
+      <tspan class="prompt">></tspan> Loading environment... [OK]
+    </text>
+    <text class="text" x="30" y="170">
+      <tspan class="prompt">></tspan> Ready for creative coding<rect class="cursor" x="420" y="152" width="14" height="22" />
+    </text>
+  </g>
+</svg>
