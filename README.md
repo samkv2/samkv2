@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="matrix.svg" alt="CMatrix Animation" width="100%" style="border-bottom: 2px solid #00FF00;" />
+  <img src="https://andrewhungblog.wordpress.com/wp-content/uploads/2018/08/matrixrain.gif" alt="CMatrix Animation" width="100%" style="border-bottom: 2px solid #00FF00;" />
   <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=1000&color=00FF00&center=true&vCenter=true&width=800&height=120&lines=root%40samkv2%3A~%23+ls+-la;Initializing+system...;Access+Granted." alt="Typing SVG" />
 </div>
