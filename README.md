@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="matrixrain.gif" alt="CMatrix Animation" width="100%" style="border-bottom: 2px solid #00FF00;" />
+  <!--<img src="matrixrain.gif" alt="CMatrix Animation" width="100%" style="border-bottom: 2px solid #00FF00;" />-->
   <br/>
   <img src="terminal.svg" alt="Terminal Window" width="100%" />
 </div>
